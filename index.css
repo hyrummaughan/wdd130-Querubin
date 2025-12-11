@@ -115,3 +115,8 @@ main {
     grid-row: 3;
     text-align: center;
 }
+#dgp1 {
+    grid-column: 1/2;
+    grid-row: 4;
+    text-align: center;
+}
