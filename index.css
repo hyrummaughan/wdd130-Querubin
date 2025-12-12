@@ -113,10 +113,22 @@ main {
 #dgHeading {
     grid-column: 1/2;
     grid-row: 3;
-    text-align: center;
 }
 #dgp1 {
     grid-column: 1/2;
+    grid-row: 4;
+    text-align: center;
+}
+#nationalPark1{
+    grid-column: 2/3;
+}
+#ttHeading {
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#ttp {
+    grid-column: 2/3;
     grid-row: 4;
     text-align: center;
 }
