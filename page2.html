@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wander with Adam</title>
+     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            text-align: center;
+            grid-column: 1/3;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        #description{
+            text-align: center;
+        }
+        #title{
+            grid-column: 1/3;
+            grid-row: 2/3;
+            text-align: center;
+        }
+        h2{
+            max-height: 200px;
+            padding: 40px 20px;
+            margin: 60px auto;
+            width: 80%;
+            max-width: 600px;
+            text-align: top;
+            grid-column: 1/3;
+            grid-row: 3/5;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            text-decoration: underline;
+        }
+        body{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto 1fr 1fr 1fr;
+        }
+        header, footer{
+            grid-column: 1/3;
+        }
+        .card{
+            background-image: url(images/notecard_img.png);
+            background-repeat: repeat;
+            background-size: contain;
+            background-position: center;
+            min-height: 250px;
+            padding: 40px 20px;
+            margin: 60px auto;
+            width: 80%;
+            min-width: 300px;
+            text-align: top;
+        }
+        p{
+            text-align: start;
+            line-height: 105%;
+        }
+        #card1{
+            grid-column: 1/3;
+            width: 40%;
+        }
+        #card2{
+            grid-column: 1/2;
+        }
+        #card3{
+            grid-column: 2/3;
+        }   
+        #card4{
+            grid-column: 1/2;
+        }
+        #card5{
+            grid-column: 2/3;
+        }
+        ul{
+            margin-top: -1px;
+            list-style-type: circle;
+            line-height: 125%;
+        }
+    </style>
 </head>
+<header>
+        <div>
+            <img src="#" alt="Wander with Adam Logo: Placeholder">
+            <a href="index.html">WANDER WITH ADAM</a>
+        </div>
+        
+        <nav>
+            <a href="destination_guides.html">Destination Guides</a>
+            <a href="#">Travel Tips & Hacks</a>
+        </nav>
+    </header>
 <body>
+    <div id="title">
+        <h1>Travel Tips and Hacks in the Wild</h1>
+        <p id="description">Learn some useful tips on the road to be prepared and be inspired by the beauty of afordable traveling</p>
+    </div>
+
+    <div class="card" id="card1">
+        <h2>Before You Go</h2>
+        <p>
+            Before traveling, it’s helpful to research your destination thoroughly, including local customs, transportation 
+            options, and weather conditions. Packing efficiently with versatile clothing, essential documents, and any needed 
+            medications can save stress later. A useful trick is to make digital backups of important documents, like passports 
+            or tickets, and to keep a small emergency kit with items such as a portable charger, snacks, and a reusable water 
+            bottle. Planning key activities ahead while leaving room for spontaneity can make your trip smoother and more 
+            enjoyable.
+        </p>
+    </div>
     
+    <div class="card" id="card2">
+        <h2>Packing Hacks</h2>
+        <p>
+            An easy hack for packing is to roll your clothes instead of folding them. Rolling saves space, reduces wrinkles, 
+            and makes it easier to fit more items into your luggage. Another helpful trick is to use packing cubes or small bags 
+            to keep items organized, so you can quickly find what you need without unpacking everything. This method also helps 
+            separate clean clothes from dirty ones during your trip.
+        </p>
+    </div>
+    
+    <div class="card" id="card3">
+        <h2>On-The-Road Tips</h2>
+        <p>
+            While on the road, it’s important to stay comfortable, safe, and flexible. Keep snacks, water, and a small emergency 
+            kit handy, and take regular breaks to stretch or rest to avoid fatigue. When you can, using a navigation app can help 
+            you avoid traffic and find interesting stops along the way. Staying aware of your surroundings, keeping valuables 
+            secure, and having a backup plan for accommodations or emergencies will make your journey smoother and less stressful.
+        </p>
+    </div>
+    
+    <div class="card" id="card4">
+        <h2>Budget Travel Tricks</h2>
+        <p>
+            Some good budgeting travel tricks include booking flights and accommodations in advance or using price comparison 
+            websites to find deals (Like our website!). Traveling during off-peak seasons can save a lot of money, and using public 
+            transportation instead of taxis or rental cars helps cut costs. Eating like a local, shopping at markets, or preparing 
+            simple meals can reduce food expenses. Another tip is to set a daily spending limit and track expenses with an app to 
+            avoid overspending while still enjoying the trip.
+        </p>
+    </div>
+    
+    <div class="card" id="card5">
+        <h2>Emergency Kit Checklist</h2>
+        <ul>
+            <li>Water & Snacks: Small bottled water and high-energy snacks like granola bars.</li>
+            <li>Portable Charger: Fully charged power bank for your devices.</li>
+            <li>Flashlight: Small, lightweight flashlight or keychain light.</li>
+            <li>Multi-tool or Pocket Knife: Useful for minor repairs or emergencies.</li>
+            <li>Personal Items: Medications, spare glasses or contacts, and hygiene items.</li>
+            <li>Emergency Contacts & Copies: Paper copies of ID, tickets, or important numbers.</li>
+            <li>Warm Layer & Rain Protection: Compact poncho or lightweight jacket.</li>
+            <li>Sanitizer & Masks: Hand sanitizer, wet wipes, and optional face masks.</li>
+        </ul>
+    </div>
 </body>
+
+ 
+    <footer>
+        <p>&copy; 2025 Wander with Adam | <a href="#">Contact</a> | <a href="#">Social Links</a></p>
+    </footer>
 </html>
